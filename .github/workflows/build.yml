@@ -11,7 +11,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
       - name: generate
-        run: sudo apt-get install nim && nim c -r main.nim 
+        run: sudo apt-get update && sudo apt-get install nim && nim c -r main.nim 
       - name: cv
         uses: dante-ev/latex-action@latest
         with:
