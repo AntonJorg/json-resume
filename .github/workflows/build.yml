@@ -38,7 +38,7 @@ jobs:
       - name: Move site content
         run: mkdir -p github_deploy && mv github_artifacts/*/* github_deploy
       - name: Clean Up
-        run: mv github_deploy/cv.pdf github_deploy/resume.pdf && rm cv.*
+        run: mv github_deploy/cv.pdf github_deploy/resume.pdf && rm github_deploy/cv.*
       - name: deploy on orphan branch
         uses: peaceiris/actions-gh-pages@v3
         with:
