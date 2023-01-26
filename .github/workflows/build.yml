@@ -13,7 +13,7 @@ jobs:
       - name: Install Nim Compiler
         uses: iffy/install-nim@v4
       - name: Compile and run main
-        run: nimble install -y && nim c -r main.nim 
+        run: nimble install nim -y && nim c -r main.nim 
       - name: Generate PDF
         uses: dante-ev/latex-action@latest
         with:
