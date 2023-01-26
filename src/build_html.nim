@@ -1,4 +1,6 @@
 import htmlgen
+import strutils
+import strformat
 import json
 import types
 import options
@@ -103,6 +105,10 @@ proc build_html*(filename: string) =
           ),
           `div`(class="link-wrapper",
             linkList(resume)
+          ),
+          a(href="resume.pdf",
+            download=fmt"{resume.name.toLowerAscii.replace(' ', '_')}.pdf",
+            `div`(class="button", p("PDF Resume"))
           )
         )
       ),

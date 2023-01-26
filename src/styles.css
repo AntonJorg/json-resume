@@ -42,6 +42,21 @@ body {
   float: left;
 }
 
+div.button {
+  background-color: var(--blue2);
+  border-radius: 5px;
+}
+
+a:hover div.button, a:focus div.button {
+  background-color: var(--blue4);
+}
+
+a div p {
+  color: var(--light3);
+  padding: 10px;
+  text-align: center;
+}
+
 div.card {
   border-color: var(--dark4);
   border-width: 2px;
