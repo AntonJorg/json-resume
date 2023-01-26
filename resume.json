@@ -1,0 +1,116 @@
+{
+  "image": "images/example.jpg",
+  "name": "Name Namerson",
+  "website": "https://www.example.com",
+  "email": "email@example.com",
+  "phone": "+00 000 000 000",
+  "github": "Username",
+  "linkedin": "Username",
+  "summary": {
+    "short": "Short summary for the website.",
+    "long": "This longer summary will show up in the resume if present."
+  },
+  "links": [
+    {
+      "title": "Custom Link",
+      "icon": "fas fa-feather-alt",
+      "url": ""
+    }
+  ],
+  "sections": [
+    {
+      "title": "Experience",
+      "pdfFormatStyle": "work",
+      "content": [
+        {
+          "title": "Number Cruncher",
+          "organization": "Corpo Ltd.",
+          "date": {
+            "start": "2020",
+            "until": "Present"
+          },
+          "description": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.",
+          "image": "example.jpg",
+          "showInPdf": true
+        },
+        {
+          "title": "Pencil Pusher",
+          "organization": "Firm Inc.",
+          "date": {
+            "start": "2016",
+            "until": "2020"
+          },
+          "description": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.",
+          "image": "example.jpg",
+          "showInPdf": true
+        },
+        {
+          "title": "Job That I Want On My Website, But Not My Resume",
+          "organization": "Arbitrary Burger Chain",
+          "date": {
+            "start": "2015",
+            "until": "2016"
+          },
+          "description": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.",
+          "image": "example.jpg",
+          "showInPdf": false
+        }
+      ]
+    },
+    {
+      "title": "Projects",
+      "pdfFormatStyle": "project",
+      "content": [
+        {
+          "title": "Built 9001 Paper Airplanes",
+          "organization": "World Paper Plane Association",
+          "date": {
+            "start": "Fall 2020"
+          },
+          "description": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.",
+          "image": "example.jpg",
+          "showInPdf": true,
+          "link": {
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "title": "Video Demo"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "pdfFormatStyle": "education",
+      "content": [
+        {
+          "title": "Fancy Sounding Degree",
+          "organization": "Elite University",
+          "date": {
+            "start": "2013",
+            "until": "2016"
+          },
+          "image": "example.jpg",
+          "showInPdf": true
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Human things",
+      "skills": [
+        "Walking",
+        "Smalltalk",
+        "Existential dread"
+      ]
+    },
+    {
+      "name": "Tools",
+      "skills": [
+        "Hammer",
+        "Chainsaw",
+        "Pipe cleaner",
+        "Frying pan"
+      ]
+    }
+  ]
+}
